@@ -1,0 +1,188 @@
+
+body{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100;
+  overflow-x: hidden;
+}
+
+.container{
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  height: 4rem;
+  width: 100vw; /* Use 100% of the viewport width */
+  background-color: white;
+  
+  position: fixed; /* Fix the navbar at the top of the page */
+  top: 0;
+  left: 0;
+   z-index: 1000;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.fa-solid{
+  display: inline;
+}
+
+/* Footer  */
+
+.f-info-links a {
+  text-decoration: none;
+  margin-right: 1rem;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+
+}
+
+
+
+
+
+/* Cards */
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-text {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+  color: #222222;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;;
+}
+
+/* New page */
+
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+.add {
+  margin-top:  '100px';
+}
+
+/* Edit page  */
+
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Show page  */
+
+.show-img {
+  height: 30vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+/* index page  */
+
+#filters{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+.filter{
+  
+  margin-right: 2rem;
+  text-align: center;
+  
+  opacity: 0.7;
+  
+}
+
+.filter p {
+  font-size: 0.8rem;
+}
+
+.filter:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* search  */
+
+.btn-search {
+  display: flex;
+  align-items: center; /* Vertically center the icon and text */
+  justify-content: center; /* Center the content horizontally */
+  gap: 0.5rem; /* Add some space between the icon and the text */
+  padding: 0.5rem 1rem; /* Optional: Adjust the padding as needed */
+  border: 1px solid #ccc; /* Example border, adjust as needed */
+  border-radius: 50px; /* Example border radius for rounded-pill class */
+  background-color: #fe424d;
+  color:#fff;
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.btn-search i {
+  margin-right: 0.5rem; /* Ensure some space between the icon and text */
+}
